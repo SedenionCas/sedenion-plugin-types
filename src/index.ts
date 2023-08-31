@@ -1,2 +1,3 @@
 export { IPanelPlugin } from "./types/PanelPlugin";
-export { Setting, SettingKind, SettingSection } from "./types/Setting";
+export { Setting } from "./types/Setting";
+export type { SettingKind, SettingSection } from "./types/Setting";

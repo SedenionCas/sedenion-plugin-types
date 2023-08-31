@@ -35,5 +35,4 @@ class Setting<T extends SettingKind> {
   }
 }
 
-
-export { Setting, SettingSection, SettingKind}
+export { Setting, type SettingSection, type SettingKind}

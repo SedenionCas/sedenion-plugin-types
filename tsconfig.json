@@ -6,6 +6,7 @@
       "module": "NodeNext",
       "skipLibCheck": true,
       "declaration": true,
+      "declarationMap": true,
       "outDir": "./dist",
       "esModuleInterop": true,
       "moduleResolution": "NodeNext",

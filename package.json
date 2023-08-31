@@ -1,0 +1,27 @@
+{
+  "name": "sedenion-plugin-types",
+  "version": "1.0.1",
+  "description": "",
+  "licence": "GPL-3.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tabler/icons-react": "^2.32.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-pluggable": "^0.4.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "typescript": "^5.2.2"
+  }
+}

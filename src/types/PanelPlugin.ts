@@ -14,6 +14,10 @@ interface IPanelPlugin extends IPlugin {
 
   display(): React.JSX.Element;
 
+  serialize?(): string;
+  deserialize?(data: string): void;
+  updateState?(scope: string, data: string): void;
+
   incrementIndex(): void;
   getIndex(): number;
 }
